@@ -1,0 +1,21 @@
+import { data } from "../assets/data/data.js";
+
+export const time = () => {
+    const timeContainer = document.querySelector(".time");
+    const wrapper = timeContainer.querySelector("div");
+    const mapLink = timeContainer.querySelector("a");
+    const addressParagraph = timeContainer.querySelector("a + p");
+
+    wrapper.innerHTML = `
+        <div class="akad-card">
+            <h3>Akad Nikah</h3>
+            <p>
+                ${data.time.marriage.day}, ${data.time.marriage.date} ${data.time.marriage.month} ${data.time.marriage.year}<br>
+                Pukul ${data.time.marriage.hours.start} WIB
+            </p>
+        </div>
+    `;
+
+    mapLink.href = data.link.map;
+    addressParagraph.textContent = data.time.address;
+};
