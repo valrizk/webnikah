@@ -2,19 +2,19 @@ export const data = {
     bride: {
         L: {
             id: 1,
+            name: 'Rizka Aidil Fitri',
+            child: 'Putri ke Satu',
+            father: 'Asep Supardi',
+            mother: 'Dewi Salamah',
+            image: './src/assets/images/cewe.png'
+        },
+        P: {
+            id: 2,
             name: 'Vallent Nico Putra',
             child: 'Putra ke Dua',
             father: 'Alm. Dulalim',
             mother: 'Sulastri',
             image: './src/assets/images/cowo.png'
-        },
-        P: {
-            id: 2,
-            name: 'Rizka Aidil Fitri',
-            child: 'Putri ke Satu',
-            father: 'Asep Supriadi',
-            mother: 'Dewi Salamah',
-            image: './src/assets/images/cewe.png'
         },
 
         couple: './src/assets/images/couple.png'
@@ -31,7 +31,7 @@ time: {
             finish: 'Selesai'
         }
     },
-    address: 'Kp. Setiaratu, RT 003/RW 006, Kec. Cibeureum, Kab. Tasikmalaya, Jawa Barat 46196'
+    address: 'J7X6+2VV, Jl. KH. Khoer Affandi, Kotabaru, Kec. Cibeureum, Kab. Tasikmalaya, Jawa Barat 46196'
 },
 
     link: {
